@@ -15,22 +15,22 @@ int main()
     {
         //i*2 helyett (i+1)*2
         b[i] = (i+1) * 2;
-    }
+    };
     //i helyett i<100
     for (int i = 0; i<100; i++)
     {
         // az eredmény nincs kiírva
-        std::cout << "Ertek:"
+        std::cout << "Ertek:";
         std::cout << b[i];
-        std::cout << "\n"
-    }    
+        std::cout << "\n";
+    };    
     std::cout << "Atlag szamitasa: " << std::endl;
     //atlag nincs deklarálva
     int atlag=0;
-    for (int i = 0; i < N_ELEMENTS, i++)
+    for (int i = 0; i < N_ELEMENTS; i++)
     {
-        atlag += b[i]
-    }
+        atlag += b[i];
+    };
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
     std::cout << "Szia Zsófi!" << std::endl; 
